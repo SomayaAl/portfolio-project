@@ -1,0 +1,22 @@
+:root {
+    --heading-font-family: font-family: 'Nunito', sans-serif;
+    --default-font-family: font-family: 'Open Sans', sans-serif;
+}
+
+.hero{
+    margin: 350px 0px;
+    text-align: center;
+    font-family: var(--heading-font-family);
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.weather-app{
+    margin: -200px 60px;
+}
