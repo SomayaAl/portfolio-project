@@ -3,20 +3,56 @@
     --default-font-family: font-family: 'Open Sans', sans-serif;
 }
 
-.hero{
+
+.portfolio-container{
+    background-color: #EBDACC;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.hero{ 
     margin: 350px 0px;
     text-align: center;
     font-family: var(--heading-font-family);
 }
 
-h1{
-    font-size: 60px;
+h1 {
+    font-size: 96px;
+    color: black;
 }
 
 h3 {
     font-size: 35px;
+    color: black;
 }
 
-.weather-app{
-    margin: -200px 60px;
+
+a {
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-circle-chevron-down {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 130px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    margin: 50px;
 }
