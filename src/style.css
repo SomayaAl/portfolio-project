@@ -4,8 +4,8 @@
 }
 
 
-body{
-    background-color: #EBDACC;
+body {
+    background-color: #F6EBE8;
     width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -14,7 +14,7 @@ body{
 }
 
 
-.hero{ 
+.hero { 
     margin: 250px 0px;
     text-align: center;
     font-family: var(--heading-font-family);
@@ -25,9 +25,19 @@ h1 {
     color: black;
 }
 
+.about-heading {
+    font-size: 96px;
+    color: black;
+    margin-top: 80px;
+}
+
 h3 {
     font-size: 35px;
     color: black;
+}
+
+h4 {
+    margin-top: 50px;
 }
 
 
@@ -66,10 +76,27 @@ p {
     margin: 50px;
 }
 
+.about-paragraph {
+    font-size: 20px;
+}
+
+.about-skills {
+    margin-top: -80px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.skills-list {
+    margin-left: -30px;
+}
+
 @media (max-width: 830px) {
     .hero{ 
     margin: 250px 0px;
-}
+    }
 
     h1{
         font-size: 50px;
