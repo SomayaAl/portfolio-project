@@ -1,11 +1,13 @@
 :root {
     --heading-font-family: font-family: 'Nunito', sans-serif;
     --default-font-family: font-family: 'Open Sans', sans-serif;
+    --primary-color: color: white;
+    --secondary-color: #58996c;
+    --default-color: black;
 }
 
-
 body {
-    background-color: #F6EBE8;
+    background-color: var(--primary-color);
     width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -13,9 +15,20 @@ body {
     text-align: center;
 }
 
+.navbar {
+    padding: 1px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    text-align: left;
+}
 
 .hero { 
-    margin: 250px 0px;
+    margin: 215px 0px;
     text-align: center;
     font-family: var(--heading-font-family);
 }
@@ -31,6 +44,13 @@ h1 {
     margin-top: 80px;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 130px;
+    color: black;
+}
+
 h3 {
     font-size: 35px;
     color: black;
@@ -38,13 +58,6 @@ h3 {
 
 h4 {
     margin-top: 50px;
-}
-
-
-a {
-    font-size: 45px;
-    color: black;
-    text-decoration: none;
 }
 
 .fa-circle-chevron-down {
@@ -60,14 +73,8 @@ a {
     margin-top: 30px;
     border-radius: 5px;
     box-shadow: 1px lightgray;
-    color: #EBDACC;
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 130px;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 p {
@@ -91,6 +98,21 @@ li {
 
 .skills-list {
     margin-left: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .email-footer{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer .footer-icons{
+    text-align: center;
+    font-size: 30px;
 }
 
 @media (max-width: 830px) {

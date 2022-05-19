@@ -35,14 +35,47 @@
     <title>Somaya Albadawi</title>
   </head>
   <body>
-    <nav>
-      <img src="#" />
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact Me</li>
-      </ul>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="images/portfolio-logo.png" alt="" width="80" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/"
+              title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html" title="About Me">About Me</a>
+            <a class="nav-link" href="projects.html" title="My Projects"
+              >Projects</a
+            >
+            <a
+              class="nav-link"
+              href="contact-me.html"
+              title="Contact Somaya Albadawi"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
     </nav>
     <div class="hero">
       <h1>Hi! I'm Somaya</h1>
@@ -55,14 +88,19 @@
     </div>
     <footer>
       <div class="email-footer">
-        <a href="mailto:somaya.albadawi@gmail.com">somaya.albadawi@gmail.com</a>
+        <a href="mailto:somaya.albadawi@gmail.com" id="email"
+          >somaya.albadawi@gmail.com</a
+        >
       </div>
-      <a href="https://www.linkedin.com/in/somaya-albadawi" target="_blank"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a href="https://github.com/SomayaAl" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/somaya-albadawi" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/SomayaAl" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>This website is coded by Somaya Albadawi and is open-sourced.</p>
     </footer>
   </body>
 </html>
