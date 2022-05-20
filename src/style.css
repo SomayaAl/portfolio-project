@@ -7,11 +7,10 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 60%;
     margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
     text-align: center;
 }
 
@@ -23,8 +22,13 @@ body {
     text-decoration: none;
 }
 
+.navbar-brand {
+    margin-left: 50px;
+}
+
 .navbar-collapse {
     text-align: left;
+    margin-right: 80px;
 }
 
 .hero { 
@@ -41,7 +45,7 @@ h1 {
 .about-heading {
     font-size: 96px;
     color: black;
-    margin-top: 80px;
+    margin-top: 190px;
 }
 
 h2 {
@@ -85,10 +89,6 @@ p {
 
 .about-paragraph {
     font-size: 20px;
-}
-
-.about-skills {
-    margin-top: -80px;
 }
 
 li {
