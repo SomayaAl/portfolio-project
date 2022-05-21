@@ -136,22 +136,23 @@ a {
     color: black;
 }
 
+.contact-icons {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: #BA5A59;
+}
+
+.border {
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
 .contact-email {
     margin-top: 60px;
     text-align: center;
     font-size: 30px;
     font-family: var(--default-font-family);
-}
-
-#email {
-    color: #BA5A59;
-}
-
-footer .footer-icons {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 30px;
-    border-radius: 20px solid gray;
 }
 
 .footer-paragraph {
