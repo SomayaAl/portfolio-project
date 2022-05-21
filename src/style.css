@@ -1,22 +1,20 @@
 :root {
     --heading-font-family: font-family: 'Nunito', sans-serif;
     --default-font-family: font-family: 'Open Sans', sans-serif;
-    --primary-color: color: white;
-    --secondary-color: #58996c;
-    --default-color: black;
 }
+
 
 body {
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: 0%;
     width: 60%;
     margin: 0 auto;
     text-align: center;
 }
 
 .navbar {
-    padding: 1px;
-    margin-top: 15px;
+    padding: 0px;
     font-size: 20px;
     color: black;
     text-decoration: none;
@@ -40,12 +38,14 @@ body {
 h1 {
     font-size: 96px;
     color: black;
+    font-family: var(--heading-font-family);
 }
 
 .about-heading {
     font-size: 96px;
     color: black;
     margin-top: 190px;
+    font-family: var(--heading-font-family);
 }
 
 h2 {
@@ -53,19 +53,37 @@ h2 {
     text-align: center;
     margin-top: 130px;
     color: black;
+    font-family: var(--heading-font-family);
+}
+
+.projects-header {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-family: var(--heading-font-family);
 }
 
 h3 {
     font-size: 35px;
     color: black;
+    font-family: var(--heading-font-family);
 }
 
 h4 {
     margin-top: 50px;
+    font-family: var(--heading-font-family);
 }
 
 h5 {
     margin-bottom: 50px;
+    font-family: var(--heading-font-family);
+}
+
+.books-info{
+    margin-top: -120px;
+}
+
+.weather-info{
+    margin-top: -120px;
 }
 
 .fa-circle-chevron-down {
@@ -83,6 +101,14 @@ h5 {
     box-shadow: 1px lightgray;
     color: white;
     background-color: black;
+}
+
+.project-button {
+    margin-bottom: 60px;
+}
+
+.homepage-button {
+    margin-top: 80px;
 }
 
 p {
@@ -109,16 +135,22 @@ a {
     color: black;
 }
 
-footer .email-footer{
+footer .email-footer {
     text-align: center;
     font-size: 30px;
+    font-family: var(--default-font-family)
 }
 
-footer .footer-icons{
+footer .footer-icons {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 30px;
     border-radius: 20px solid gray;
+}
+
+.footer-paragraph {
+    margin-top: 10px;
+    font-family: var (--default-font-family);
 }
 
 @media (max-width: 830px) {
