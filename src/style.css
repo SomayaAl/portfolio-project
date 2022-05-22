@@ -30,7 +30,7 @@ body {
 }
 
 .hero { 
-    margin: 215px 0px;
+    margin: 350px 0px;
     text-align: center;
     font-family: var(--heading-font-family);
 }
@@ -110,7 +110,7 @@ h5 {
 
 .homepage-button {
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: -95px;
 }
 
 p {
