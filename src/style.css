@@ -42,7 +42,6 @@ h1 {
 }
 
 .about-heading {
-    font-size: 96px;
     color: black;
     margin-top: 190px;
     font-family: var(--heading-font-family);
@@ -166,11 +165,19 @@ a {
 }
 
 @media (max-width: 830px) {
+    body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
     .navbar-brand {
-        margin-left: 1px;
+        margin-left: -10px;
     }
     .hero{ 
-    margin: 250px 0px;
+    margin: 200px 0px;
     }
 
     h1{
@@ -178,21 +185,22 @@ a {
         margin: 0 auto;
     }
 
+    h2 {
+        margin: 100px 20px 0px;
+    }
+
     h3{
         font-size: 30px;
         margin: 0 auto;
     }
 
-    a {
-        font-size: 20px;
+    h5{
+        font-size: 15px;
+        margin-top: 15px;
     }
 
     .fa-circle-chevron-down{
         display: none;
-    }
-    
-    h2 {
-        margin-top: 100px;
     }
 
     p{
@@ -200,8 +208,60 @@ a {
         margin: 0 auto;
     }
 
+    .about-paragraph {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .btn-dark {
         padding: 10px 10px;
     }
 
+    .contact-icons {
+        text-align: center;
+        font-size: 25px;
+        margin: 100px 0px 170px 0px;
+        justify-content: space-evenly;
+}
+
+    .border {
+        padding: 5px 10px;
+        border-radius: 100px;
+        background-color:#F8ECECE6;
+}
+
+    .footer-paragraph {
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 15px;
+}
+
+    .books-info {
+        margin: -90px 90px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .weather-info {
+        margin: 20px 80px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .books-button {
+        margin-top: 40px;
+    }
+
+    .weather-button {
+        margin-top: 40px;
+    }
+
+    .books-heading {
+        margin-bottom: 30px;
+    }
+
+    .weather-heading {
+        margin-bottom: 30px;
+    }
 }
