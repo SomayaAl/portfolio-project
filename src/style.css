@@ -3,12 +3,7 @@
     --default-font-family: font-family: 'Open Sans', sans-serif;
 }
 
-
 body {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0%;
-    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -29,10 +24,16 @@ body {
     margin-right: 80px;
 }
 
+
 .hero { 
-    margin: 350px 0px;
     text-align: center;
     font-family: var(--heading-font-family);
+    background-image: url("/images/green-canvas-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    width: 100%;
+    padding: 300px 20px 170px 20px;
 }
 
 h1 {
@@ -100,7 +101,7 @@ h5 {
     border-radius: 5px;
     box-shadow: 1px lightgray;
     color: white;
-    background-color: black;
+    background-color: #004643;
 }
 
 .project-button {
@@ -148,7 +149,7 @@ a {
 .border {
     padding: 10px 20px;
     border-radius: 100px;
-    background-color:#F8ECECE6;
+    background-color: #eaf9e7
 
 }
 
@@ -177,7 +178,7 @@ a {
         margin-left: -10px;
     }
     .hero{ 
-    margin: 200px 0px;
+    margin: 200px auto;
     }
 
     h1{
